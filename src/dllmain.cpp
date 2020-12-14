@@ -653,7 +653,7 @@ static std::string Type(parMemberCommonData* m, bool html = true)
 
 static void PrintStruct(std::ofstream& f, parStructure* s, bool html)
 {
-	constexpr bool IncludeOffsets = false;
+	constexpr bool IncludeOffsets = true;
 
 	const std::string sName = HashToStr(s->name);
 
